@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--padding-->
+    <dimen name="common_padding">15dp</dimen>
+    <dimen name="common_padding_middle">10dp</dimen>
+    <dimen name="common_padding_small">5dp</dimen>
+    <!--margin-->
+    <dimen name="common_margin">15dp</dimen>
+    <dimen name="common_margin_middle">10dp</dimen>
+    <dimen name="common_margin_small">5dp</dimen>
+    <!--shape-->
+    <dimen name="common_radius">6dp</dimen>
+    <dimen name="common_border_size">1px</dimen>
+</resources>
