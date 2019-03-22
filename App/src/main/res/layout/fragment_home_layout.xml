@@ -15,17 +15,14 @@
         android:paddingRight="15dp"
         android:paddingLeft="15dp">
 
-        <ImageView
-            android:id="@+id/mScanIv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/icon_scan"/>
+
 
         <EditText
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent"
             android:hint="@string/serch_hint"
+            android:textSize="14dp"
             android:cursorVisible="false"
             android:editable="false"
             android:textColor="@color/common_white"
@@ -36,12 +33,17 @@
             android:paddingBottom="@dimen/common_padding_small"
             android:layout_marginTop="@dimen/common_margin_small"
             android:layout_marginBottom="@dimen/common_margin_small"
-            android:layout_marginLeft="@dimen/common_margin"
+            android:layout_marginRight="@dimen/common_margin"
             android:drawableLeft="@drawable/icon_search"
             android:drawablePadding="@dimen/common_padding_middle"
             android:textCursorDrawable="@null"
-            android:maxLines="1"
-            />
+            android:maxLines="1"/>
+
+        <ImageView
+            android:id="@+id/mScanIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_scan"/>
 
     </LinearLayout>
 
