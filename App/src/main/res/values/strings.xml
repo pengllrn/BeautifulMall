@@ -2,5 +2,5 @@
     <string name="app_name">美丽商城</string>
 
     <!--首页-->
-    <string name="serch_hint">搜索商品/品类</string>
+    <string name="search_hint">搜索商品/品类</string>
 </resources>
